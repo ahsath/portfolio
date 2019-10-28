@@ -1,23 +1,22 @@
 <template>
 	<portfolio-card
-		:website-url="'https://pagami.net'"
-		:repo-url="'https://github.com/ahsath/pagami-landing-page'"
+		:website-url="'https://dlasol.com/'"
+		:repo-url="'https://github.com/ahsath/dlasol-website'"
 	>
 		<template #img>
 			<g-image
-				src="@/assets/img/pagami-mockup.jpeg"
+				src="@/assets/img/dlasol-mockup.jpeg"
 				quality="80"
-				alt="Pagami image mockup"
+				alt="Dlasol image mockup"
 				class="rounded-t-lg h-full object-cover sm:rounded-t-none sm:rounded-r-lg"
 			/>
 		</template>
 		<template #title>
-			Pagami
+			Dlasol
 		</template>
 		<template #text>
-			Pagami it's a company that uses maps for business advertising. My work
-			consisted in designing the UI as well the development of the front-end
-			code
+			Dlasol it's a creative agency based on Plant City, Florida U.S. My work
+			was to develop the front-end code for their website
 		</template>
 	</portfolio-card>
 </template>

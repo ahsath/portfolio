@@ -1,23 +1,23 @@
 <template>
 	<portfolio-card
-		:website-url="'https://pagami.net'"
-		:repo-url="'https://github.com/ahsath/pagami-landing-page'"
+		:website-url="'https://admirable-web.netlify.com/'"
+		:repo-url="'https://github.com/ahsath/admirable'"
 	>
 		<template #img>
 			<g-image
-				src="@/assets/img/pagami-mockup.jpeg"
+				src="@/assets/img/admirable-mockup.jpeg"
 				quality="80"
-				alt="Pagami image mockup"
+				alt="Admirable image mockup"
 				class="rounded-t-lg h-full object-cover sm:rounded-t-none sm:rounded-r-lg"
 			/>
 		</template>
 		<template #title>
-			Pagami
+			Admirable
 		</template>
 		<template #text>
-			Pagami it's a company that uses maps for business advertising. My work
-			consisted in designing the UI as well the development of the front-end
-			code
+			Admirable its a hybrid desktop an web app for management system for
+			cellular technical service companies. I developed it using Electron.js as
+			side project
 		</template>
 	</portfolio-card>
 </template>

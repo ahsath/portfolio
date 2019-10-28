@@ -1,7 +1,7 @@
 <template>
 	<portfolio-card
 		:website-url="'https://inkntint.com'"
-		:repo-url="'https://github.com/'"
+		:repo-url="'https://github.com/ahsath/inkntint'"
 	>
 		<template #img>
 			<g-image
