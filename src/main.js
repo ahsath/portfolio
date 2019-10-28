@@ -16,6 +16,10 @@ import BaseGridTrack from "@/components/BaseGridTrack.vue";
 // Add web app manifest
 
 export default function(Vue, { router, head, isClient }) {
+  head.style.push({
+    type: "text/css",
+    cssText: ".lg:grid-temp-col--2 {grid-template-columns: repeat(2, 1fr)}"
+  });
   Vue.component("TheHeading", TheHeading);
   Vue.component("BaseButton", BaseButton);
   Vue.component("BaseIcon", BaseIcon);
