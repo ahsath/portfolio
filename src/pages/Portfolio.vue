@@ -5,6 +5,8 @@
 			<base-grid gap="sm" lg="2">
 				<portfolio-inkntint />
 				<portfolio-pagami />
+				<portfolio-dlasol />
+				<portfolio-admirable />
 			</base-grid>
 		</base-container>
 	</div>
@@ -13,6 +15,8 @@
 <script>
 	import PortfolioInkntint from "@/components/PortfolioInkntint.vue";
 	import PortfolioPagami from "@/components/PortfolioPagami.vue";
+	import PortfolioDlasol from "@/components/PortfolioDlasol.vue";
+	import PortfolioAdmirable from "@/components/PortfolioAdmirable.vue";
 
 	export default {
 		name: "Portfolio",
@@ -67,7 +71,9 @@
 		},
 		components: {
 			PortfolioInkntint,
-			PortfolioPagami
+			PortfolioPagami,
+			PortfolioDlasol,
+			PortfolioAdmirable
 		}
 	};
 </script>
