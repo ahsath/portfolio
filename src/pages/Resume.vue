@@ -11,7 +11,7 @@
 					Download CV
 					<base-icon :icon-path="mdiDownloadOutline" size="xs" align="right" />
 				</base-external-link>
-				<base-card class="p-4">
+				<base-card class="p-4" data-aos="fade">
 					<base-grid gap="sm">
 						<base-grid-track sm-grid-row="1">
 							<g-image
@@ -49,6 +49,7 @@
 						v-for="({ date, location, company, jobTitle, jobDescription },
 						i) in cv.workExperience"
 						:key="i"
+						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -76,6 +77,7 @@
 						v-for="({ date, location, company, jobTitle, jobDescription },
 						i) in cv.freelanceWork"
 						:key="i"
+						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -103,6 +105,7 @@
 						v-for="({ date, location, educativeOrg, degree },
 						i) in cv.education"
 						:key="i"
+						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -122,19 +125,19 @@
 							Skillset
 						</base-card-overline-sm>
 					</div>
-					<base-card class="mt-4 p-4">
+					<base-card class="mt-4 p-4" data-aos="fade">
 						<base-card-overline-xs>
 							Coding
 						</base-card-overline-xs>
 						<skillset-list :skillset="cv.skillset.coding" />
 					</base-card>
-					<base-card class="mt-4 p-4">
+					<base-card class="mt-4 p-4" data-aos="fade">
 						<base-card-overline-xs>
 							Design Tools
 						</base-card-overline-xs>
 						<skillset-list :skillset="cv.skillset.designTools" />
 					</base-card>
-					<base-card class="mt-4 p-4">
+					<base-card class="mt-4 p-4" data-aos="fade">
 						<base-card-overline-xs>
 							Front-end tools and frameworks
 						</base-card-overline-xs>
@@ -162,11 +165,13 @@
 		mdiBrain
 	} from "@mdi/js";
 
+	import anime from "animejs/lib/anime.es";
+
 	export default {
-		name: "Curriculum",
+		name: "Resume",
 		data() {
 			return {
-				pageTitle: "Curriculum",
+				pageTitle: "Resume",
 				pageDescription:
 					"Senior Technician in Computer Science. 26 years old, born in Venezuela. He speaks Spanish and English fluently",
 				mdiDownloadOutline,
@@ -226,6 +231,35 @@
 			BaseCardOverlineSm,
 			BaseCardTitleSm,
 			SkillsetList
+		},
+		methods: {
+			cb(entries, observer) {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						observer.unobserve(entry.target);
+						this.animeTimelineAdd(
+							entry.target,
+							entry.target.dataset.averageSkill
+						);
+					}
+				});
+			},
+			animeTimelineAdd(target, width) {
+				const tl = anime.timeline({ easing: "easeOutCubic", duration: 600 });
+				tl.add(
+					{
+						targets: target,
+						width: `${width}%`
+					},
+					"+=100"
+				);
+			}
+		},
+		mounted() {
+			const observer = new IntersectionObserver(this.cb, { threshold: 1.0 });
+			document.querySelectorAll(".bar").forEach(el => {
+				observer.observe(el);
+			});
 		}
 	};
 </script>
