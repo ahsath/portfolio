@@ -1,0 +1,17 @@
+{
+  "name": "ahsath-portfolio-website",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@mdi/js": "^4.5.95",
+    "gridsome": "^0.7.0",
+    "typeface-roboto": "^0.0.75"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^2.2.26"
+  }
+}

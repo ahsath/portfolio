@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+img {
+  @apply block;
+}
+
+/* Transition */
+.transition--all {
+  transition: all 0.3s ease;
+}
+
+/* Transform hover */
+.transform--raised:hover {
+  transform: translateY(-4px);
+}

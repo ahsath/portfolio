@@ -1,0 +1,153 @@
+{
+    "workExperience": [
+        {
+            "date": "Sep 2016 - Jun 2017",
+            "location": "Panamá",
+            "company": "Tecnocom #1",
+            "jobTitle": "Cellphone repair technician and store manager",
+            "jobDescription": "The main duties were receiving, diagnosticating and fixing clients phones, the job consisted in replaicing cellphone parts from broken screens, digitalizers, buttons, charging ports, integrated circuits and more"
+        },
+        {
+            "date": "May 2015 - Mar 2016",
+            "location": "Venezuela",
+            "company": "Compu-Cell c.a.",
+            "jobTitle": "Cellphone repair technician and store manager",
+            "jobDescription": ""
+        },
+        {
+            "date": "Jul 2013 - Jan 2014",
+            "location": "Venezuela",
+            "company": "Merrell c.a. C.C. Líder ",
+            "jobTitle": "Sales advisor",
+            "jobDescription": "The job consisted in attending, guiding and advising clients on purchase options from mountain apparel, shoes and boots"
+        }
+    ],
+    "freelanceWork": [
+        {
+            "date": "Jun 2019 - Jun 2019",
+            "location": "Colombia",
+            "company": "inkntint.com",
+            "jobTitle": "Front-end web developer",
+            "jobDescription": "The task was to develop the interface and the code for a website for a software business that develop hybrid mobile and web apps from scratch"
+        },
+        {
+            "date": "Mar 2019 - Mar 2019",
+            "location": "Colombia",
+            "company": "hogarrepuestos.com",
+            "jobTitle": "Front-end web developer",
+            "jobDescription": "The job was to design and build a website for a home appliances business with back-end admin panel, this was developed using Vue.js/Gridsome, Netlify CMS and Vuetify"
+        },
+        {
+            "date": "Apr 2019 - Apr 2019",
+            "location": "Colombia",
+            "company": "dlasol.com",
+            "jobTitle": "Front-end web developer",
+            "jobDescription": "The job was to design and build a website for a creative agency based on Plant City, Florida, U.S"
+        },
+        {
+            "date": "May 2018 - Jun 2018",
+            "location": "Venezuela",
+            "company": "Wowchimp",
+            "jobTitle": "Front-end web developer",
+            "jobDescription": "The duties of the job were to translate Photoshop designs to HTML using Bootstrap 3 and custom CSS for a hotel website based on Miami, Florida US"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Senior Technician in Computer Science",
+            "date": "Ene 2014 - Nov 2015",
+            "location": "Venezuela",
+            "educativeOrg": "Instituto Universitario de Mercadotecnia"
+        },
+        {
+            "degree": "Bachelor in Science",
+            "date": "Ene 2007 - Oct 2011",
+            "location": "Venezuela",
+            "educativeOrg": "Liceo Nacional Andrés Bello"
+        }
+    ],
+    "skillset": {
+        "coding": [
+            {
+                "tech": "JavaScript",
+                "averageSkill": 57
+            },
+            {
+                "tech": "Node.js",
+                "averageSkill": 70
+            },
+            {
+                "tech": "HTML5",
+                "averageSkill": 83
+            },
+            {
+                "tech": "CSS3",
+                "averageSkill": 66
+            }
+        ],
+        "designTools": [
+            {
+                "tech": "Adobe Xd",
+                "averageSkill": 90
+            },
+            {
+                "tech": "Illustrator",
+                "averageSkill": 45
+            }
+        ],
+        "frontendToolsAndFrameworks": [
+            {
+                "tech": "Vue.js",
+                "averageSkill": 90
+            },
+            {
+                "tech": "Vuetify",
+                "averageSkill": 94
+            },
+            {
+                "tech": "Bootstrap",
+                "averageSkill": 94
+            },
+            {
+                "tech": "Bulma",
+                "averageSkill": 94
+            },
+            {
+                "tech": "ElementUI",
+                "averageSkill": 94
+            },
+            {
+                "tech": "TailwindCSS",
+                "averageSkill": 94
+            },
+            {
+                "tech": "Webpack",
+                "averageSkill": 64
+            },
+            {
+                "tech": "ParcelJS",
+                "averageSkill": 48
+            },
+            {
+                "tech": "Gridsome",
+                "averageSkill": 83
+            },
+            {
+                "tech": "GraphQL",
+                "averageSkill": 42
+            },
+            {
+                "tech": "Firestore",
+                "averageSkill": 79
+            },
+            {
+                "tech": "NPM / YARN",
+                "averageSkill": 39
+            },
+            {
+                "tech": "Github / Git",
+                "averageSkill": 39
+            }
+        ]
+    }
+}
