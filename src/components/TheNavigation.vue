@@ -31,8 +31,8 @@
 					{ to: "/", name: "Home", iconPath: mdiHomeOutline },
 					{ to: "/portfolio", name: "Portfolio", iconPath: mdiBriefcaseOutline },
 					{
-						to: "/curriculum",
-						name: "Curriculum",
+						to: "/resume",
+						name: "Resume",
 						iconPath: mdiTie
 					}
 				]
