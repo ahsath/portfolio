@@ -42,7 +42,7 @@
 					// OG - Facebook
 					{
 						property: "og:url",
-						content: "https://ahsath.me/"
+						content: "https://ahsath.com/"
 					},
 					{
 						property: "og:title",
@@ -54,17 +54,17 @@
 					},
 					{
 						property: "og:image",
-						content: `https://ahsath.me${require("../assets/img/metadata-1200x628.jpg")}`
+						content: `https://ahsath.com${require("../assets/img/metadata-1200x628.jpg")}`
 					},
 					{ property: "og:type", content: "website" },
 					// Twitter
 					{ property: "twitter:card", content: "summary_large_image" },
-					{ property: "twitter:url", content: "https://ahsath.me/" },
+					{ property: "twitter:url", content: "https://ahsath.com/" },
 					{ property: "twitter:title", content: `Ahsath - ${this.pageTitle}` },
 					{ property: "twitter:description", content: this.pageDescription },
 					{
 						property: "twitter:image",
-						content: `https://ahsath.me${require("../assets/img/metadata-1200x628.jpg")}`
+						content: `https://ahsath.com${require("../assets/img/metadata-1200x628.jpg")}`
 					}
 				]
 			};

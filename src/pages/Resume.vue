@@ -4,14 +4,14 @@
 		<base-container class="my-10">
 			<base-grid gap="lg" class="max-w-xl mx-auto">
 				<base-external-link
-					to="https://ahsath.me/curriculum.pdf"
+					to="https://ahsath.com/curriculum.pdf"
 					class="text-indigo-800 hover:bg-indigo-100 ml-auto"
 					link-style="text"
 				>
 					Download CV
 					<base-icon :icon-path="mdiDownloadOutline" size="xs" align="right" />
 				</base-external-link>
-				<base-card class="p-4" data-aos="fade">
+				<base-card class="p-4">
 					<base-grid gap="sm">
 						<base-grid-track sm-grid-row="1">
 							<g-image
@@ -49,7 +49,6 @@
 						v-for="({ date, location, company, jobTitle, jobDescription },
 						i) in cv.workExperience"
 						:key="i"
-						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -77,7 +76,6 @@
 						v-for="({ date, location, company, jobTitle, jobDescription },
 						i) in cv.freelanceWork"
 						:key="i"
-						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -105,7 +103,6 @@
 						v-for="({ date, location, educativeOrg, degree },
 						i) in cv.education"
 						:key="i"
-						data-aos="fade"
 					>
 						<base-card-overline-xs>
 							{{ date }} &bull; {{ location }}
@@ -125,19 +122,19 @@
 							Skillset
 						</base-card-overline-sm>
 					</div>
-					<base-card class="mt-4 p-4" data-aos="fade">
+					<base-card class="mt-4 p-4">
 						<base-card-overline-xs>
 							Coding
 						</base-card-overline-xs>
 						<skillset-list :skillset="cv.skillset.coding" />
 					</base-card>
-					<base-card class="mt-4 p-4" data-aos="fade">
+					<base-card class="mt-4 p-4">
 						<base-card-overline-xs>
 							Design Tools
 						</base-card-overline-xs>
 						<skillset-list :skillset="cv.skillset.designTools" />
 					</base-card>
-					<base-card class="mt-4 p-4" data-aos="fade">
+					<base-card class="mt-4 p-4">
 						<base-card-overline-xs>
 							Front-end tools and frameworks
 						</base-card-overline-xs>
@@ -198,7 +195,7 @@
 					// OG - Facebook
 					{
 						property: "og:url",
-						content: "https://ahsath.me/"
+						content: "https://ahsath.com/"
 					},
 					{
 						property: "og:title",
@@ -210,17 +207,17 @@
 					},
 					{
 						property: "og:image",
-						content: `https://ahsath.me${require("../assets/img/metadata-1200x628.jpg")}`
+						content: `https://ahsath.com${require("../assets/img/metadata-1200x628.jpg")}`
 					},
 					{ property: "og:type", content: "website" },
 					// Twitter
 					{ property: "twitter:card", content: "summary_large_image" },
-					{ property: "twitter:url", content: "https://ahsath.me/" },
+					{ property: "twitter:url", content: "https://ahsath.com/" },
 					{ property: "twitter:title", content: `Ahsath - ${this.pageTitle}` },
 					{ property: "twitter:description", content: this.pageDescription },
 					{
 						property: "twitter:image",
-						content: `https://ahsath.me${require("../assets/img/metadata-1200x628.jpg")}`
+						content: `https://ahsath.com${require("../assets/img/metadata-1200x628.jpg")}`
 					}
 				]
 			};
