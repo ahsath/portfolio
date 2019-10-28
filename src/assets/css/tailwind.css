@@ -17,24 +17,3 @@ img {
 .transform--raised:hover {
   transform: translateY(-4px);
 }
-
-.grid {
-  display: grid;
-}
-@responsive {
-  .grid-gap--sm {
-    gap: 1rem;
-  }
-  .grid-gap--md {
-    gap: 1.5rem;
-  }
-  .grid-gap--lg {
-    gap: 2.25rem;
-  }
-  .grid-temp-col--1 {
-    grid-template-columns: 1fr;
-  }
-  .grid-temp-col--2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
