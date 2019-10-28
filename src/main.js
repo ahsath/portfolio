@@ -13,6 +13,7 @@ import BaseCardActions from "@/components/BaseCardActions.vue";
 import BaseGrid from "@/components/BaseGrid.vue";
 import BaseGridTrack from "@/components/BaseGridTrack.vue";
 
+import "aos/dist/aos.css";
 // Add web app manifest
 
 export default function(Vue, { router, head, isClient }) {
