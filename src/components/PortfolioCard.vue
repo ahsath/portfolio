@@ -1,5 +1,5 @@
 <template>
-	<base-card class="card">
+	<base-card class="card" data-aos="fade">
 		<div class="sm:flex">
 			<div class="sm:order-2 sm:w-1/3">
 				<slot name="img" />
@@ -44,6 +44,7 @@
 
 <script>
 	import { mdiGithubCircle, mdiOpenInNew } from "@mdi/js";
+	// import AOS from "aos";
 
 	export default {
 		data() {
@@ -62,5 +63,8 @@
 				required: true
 			}
 		}
+		// mounted() {
+		// 	AOS.init();
+		// }
 	};
 </script>
