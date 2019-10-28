@@ -1,5 +1,5 @@
 <template>
-	<base-card class="card" data-aos="fade">
+	<base-card class="card">
 		<div class="sm:flex">
 			<div class="sm:order-2 sm:w-1/3">
 				<slot name="img" />
