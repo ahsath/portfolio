@@ -1,5 +1,4 @@
 <template>
-	<!-- Todo: fix the header at the top when scrolling -->
 	<header class="px-4 flex items-center relative z-10 sm:h-16">
 		<section class="flex justify-start sm:flex-grow">
 			<base-internal-link
