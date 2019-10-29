@@ -8,7 +8,7 @@
 					class="text-indigo-800 hover:bg-indigo-100 ml-auto"
 					link-style="text"
 				>
-					Download CV
+					Download
 					<base-icon :icon-path="mdiDownloadOutline" size="xs" align="right" />
 				</base-external-link>
 				<base-card class="p-4">
