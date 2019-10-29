@@ -4,7 +4,7 @@
 		<base-container class="my-10">
 			<base-grid gap="lg" class="max-w-xl mx-auto">
 				<base-external-link
-					to="https://ahsath.netlify.com/es-resume.pdf"
+					to="https://ahsath.com/en-resume.pdf"
 					class="text-indigo-800 hover:bg-indigo-100 ml-auto"
 					link-style="text"
 				>
