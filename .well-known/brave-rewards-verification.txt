@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ahsath.com
+Token: 9c0d1398fc39e07fd8d5a74db4b6c95377cefd90a30e82426cf2a4b0e14554bf
