@@ -1,6 +1,6 @@
 <template>
 	<portfolio-card
-		:website-url="'https://pagami.net'"
+		:website-url="'https://pagami.app'"
 		:repo-url="'https://github.com/ahsath/pagami-landing-page'"
 	>
 		<template #img>
